@@ -56,4 +56,10 @@ return packer.startup(function(use)
     use "williamboman/mason-lspconfig.nvim" -- simple to use language server installer
     use "neovim/nvim-lspconfig" -- enable LSP
 
+    -- Telescope (fuzzy finder)
+    use {
+        'nvim-telescope/telescope.nvim', tag = '0.1.4',
+        requires = { {'nvim-lua/plenary.nvim'} }
+    }
+
 end)
