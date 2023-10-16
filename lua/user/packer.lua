@@ -70,7 +70,8 @@ return packer.startup(function(use)
     -- Git stuff
     use "lewis6991/gitsigns.nvim"
 
-    -- Bufferline
+    -- Bufferline & Lualine
     use {"akinsho/bufferline.nvim", tag = "*", requires = "nvim-tree/nvim-web-devicons"}
+    use "nvim-lualine/lualine.nvim"
 
 end)
