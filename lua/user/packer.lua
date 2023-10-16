@@ -35,6 +35,7 @@ return packer.startup(function(use)
     use "wbthomason/packer.nvim"
     use "nvim-lua/popup.nvim"
     use "nvim-lua/plenary.nvim"
+    use "nvim-tree/nvim-web-devicons"
     -- Color scheme
     use {"catppuccin/nvim", as = "catppuccin"}
 
@@ -68,5 +69,8 @@ return packer.startup(function(use)
     }
     -- Git stuff
     use "lewis6991/gitsigns.nvim"
+
+    -- Bufferline
+    use {"akinsho/bufferline.nvim", tag = "*", requires = "nvim-tree/nvim-web-devicons"}
 
 end)
