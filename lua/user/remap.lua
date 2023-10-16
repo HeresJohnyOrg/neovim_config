@@ -5,7 +5,7 @@ vim.g.mapleader = " "
 local k = vim.keymap.set
 -- Normal
 k("n", "<leader>ev", vim.cmd.Ex)
-k("n", "<leader>e", vim.cmd.Lex)
+k("n", "<leader>e", ":NvimTreeToggle<CR>")
 
 k("n", "J", "mzJ`z")
 k("n", "<leader><enter>", [[i<enter><Esc>O]])
@@ -21,9 +21,11 @@ k("n", "<S-l>", ":bnext<CR>")
 k("n", "<S-h>", ":bprevious<CR>")
 -- Navigate panes
 k("n", "<C-h>", "<C-w>h")
+
 k("n", "<C-j>", "<C-w>j")
 k("n", "<C-k>", "<C-w>k")
 k("n", "<C-l>", "<C-w>l")
+-- Navigate terminal
 
 -- Insert
 
