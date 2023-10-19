@@ -24,6 +24,16 @@ local options = {
     signcolumn = "yes",
     scrolloff = 8,
     colorcolumn = "80",
+    list = true,
+    listchars = {
+        tab = ">-",
+        lead = "·",
+        --eol = "¶",
+        trail = "·",
+        extends = ">",
+        precedes = "<",
+    }
+    --listchars.lead = "·",
 }
 
 for k, v in pairs(options) do
