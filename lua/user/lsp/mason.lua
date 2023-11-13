@@ -5,6 +5,7 @@ local servers = {
     "clangd",
     "bashls",
     "taplo",
+    "rust_analyzer"
 }
 local settings = {
     ui = {
