@@ -7,6 +7,8 @@ local k = vim.keymap.set
 k("n", "<leader>ev", vim.cmd.Ex)
 k("n", "<leader>e", ":NvimTreeToggle<CR>")
 
+k("n", "<C-d>", "<C-d>zz")
+k("n", "<C-u>", "<C-u>zz")
 k("n", "J", "mzJ`z")
 k("n", "<leader><enter>", [[i<enter><Esc>O]])
 k({"n", "v"}, "<leader>y", [["+y]])
