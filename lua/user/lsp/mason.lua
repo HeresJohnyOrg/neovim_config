@@ -6,7 +6,8 @@ local servers = {
     "bashls",
     "taplo",
     "rust_analyzer",
-    "tsserver"
+    "tsserver",
+    "html"
 }
 local settings = {
     ui = {
