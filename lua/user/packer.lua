@@ -47,6 +47,7 @@ return packer.startup(function(use)
     use "saadparwaiz1/cmp_luasnip" -- snippet completions
     use "hrsh7th/cmp-nvim-lsp"
     use "hrsh7th/cmp-nvim-lua"
+    use "jalvesaq/cmp-nvim-r"
 
       -- snippets
     use "L3MON4D3/LuaSnip" --snippet engine
@@ -77,5 +78,8 @@ return packer.startup(function(use)
 
     -- nvim tree
     use "nvim-tree/nvim-tree.lua"
+
+    -- R
+    use "jalvesaq/Nvim-R"
 
 end)
