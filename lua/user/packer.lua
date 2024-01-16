@@ -79,7 +79,9 @@ return packer.startup(function(use)
     -- nvim tree
     use "nvim-tree/nvim-tree.lua"
 
-    -- R
+    -- R and quarto
     use "jalvesaq/Nvim-R"
+    use "quarto-dev/quarto-nvim"
+    use "jmbuhr/otter.nvim"
 
 end)
