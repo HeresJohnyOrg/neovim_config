@@ -7,7 +7,8 @@ local servers = {
     "taplo",
     "rust_analyzer",
     "tsserver",
-    "r_language_server"
+    "r_language_server",
+    "html"
 }
 local settings = {
     ui = {
