@@ -8,7 +8,8 @@ local servers = {
     "rust_analyzer",
     "tsserver",
     "r_language_server",
-    "html"
+    "html",
+    "cssls"
 }
 local settings = {
     ui = {
